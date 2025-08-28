@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Counter App</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <div class="wrap">
+            <div class="input-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" />
+            </div>
+            <div class="input-group">
+                <label for="height">Height</label>
+                <input type="number" id="height" />
+            </div>
+            <div class="input-group">
+                <label for="weight">Weight</label>
+                <input type="number" id="weight" />
+            </div>
+            <div class="gender-seclection">
+                <div class="choose">
+                    <label for="male">Male</label>
+                    <input type="checkbox" id="male" />
+                </div>
+                <div class="choose">
+                    <label for="female">Female</label>
+                    <input type="checkbox" id="female">
+                </div>
+            </div>
+            <button id="calc-btn">Calculate BMI</button>
+            <p>
+                <strong>BMI:</strong>
+                <span id="bmi-number"></span>
+            </p>
+            <p>
+                <strong>Result:</strong>
+                <span id="bmi-result"></span>
+            </p>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
