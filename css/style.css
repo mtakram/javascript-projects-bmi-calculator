@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7f7f7;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+.wrap {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+input[type="number"] {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+}
+label {
+    min-width: 100px;
+}
+.gender-selection {
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.choose {
+    display: flex;
+    align-items: center;
+    background-color: #DBEFFE;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.choose label {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.choose input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    left: 0;
+    right: 0;
+}
+button {
+    padding: 16px;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 16px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #289DF6;
+    color: #ffffff;
+    cursor: s;
+}
+p {
+    margin: 8px 0;
+}
