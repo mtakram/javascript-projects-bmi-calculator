@@ -8,7 +8,7 @@ body {
 }
 .container {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 h1 {
     text-align: center;
@@ -16,7 +16,7 @@ h1 {
 .wrap {
     background-color: #ffffff;
     border-radius: 30px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .input-group {
